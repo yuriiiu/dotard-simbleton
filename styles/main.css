@@ -1,0 +1,7 @@
+.business {
+    border-bottom: 2px solid black;
+}
+
+.business__address {
+    padding-bottom: 5px;
+}
