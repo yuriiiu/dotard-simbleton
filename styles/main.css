@@ -1,4 +1,5 @@
 article {
+    border: 2px dotted black;
     padding-bottom: 10px;
 }
 
@@ -9,4 +10,8 @@ article {
 
 .business__address {
     padding-bottom: 5px;
+}
+
+.agent {
+    border-bottom: 2px solid black;
 }
