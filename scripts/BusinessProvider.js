@@ -118,10 +118,10 @@ const businesses = [
   export const findAgent = (agentName) => {
     let searchList = []
     businesses.forEach(business => {
-      if (business.purchasingAgent.nameLast.includes(agentName)) { 
+      if (business.purchasingAgent.nameFirst.includes(agentName)) { 
         searchList.push(business)
       }
-      else if (business.purchasingAgent.nameFirst.includes(agentName)) {
+      else if (business.purchasingAgent.nameLast.includes(agentName)) {
         searchList.push(business)
       }
       console.log(business.purchasingAgent.nameFirst.includes(agentName))
